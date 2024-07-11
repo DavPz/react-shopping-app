@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../../Components/Layout';
 
-function SingIn () {
-  return (
-    <div className="bg-red-950">
-    Fing In
-  </div>
-  )
+function SingIn() {
+  return <Layout>Fing In</Layout>;
 }
 
-export default SingIn
+export default SingIn;

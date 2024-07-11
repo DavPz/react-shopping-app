@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../../Components/Layout';
 
-function Home () {
-  return (
-    <div className="bg-red-950">
-    Home
-  </div>
-  )
+function Home() {
+  return <Layout>Home</Layout>;
 }
 
-export default Home
+export default Home;

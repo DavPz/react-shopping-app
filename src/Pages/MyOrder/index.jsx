@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../../Components/Layout';
 
-function MyOrder () {
-  return (
-    <div className="bg-red-950">
-    My Order
-  </div>
-  )
+function MyOrder() {
+  return <Layout>My Order</Layout>;
 }
 
-export default MyOrder
+export default MyOrder;

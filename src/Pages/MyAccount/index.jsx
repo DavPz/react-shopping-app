@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../../Components/Layout';
 
-function MyAccount () {
-  return (
-    <div className="bg-red-950">
-    My Account
-  </div>
-  )
+function MyAccount() {
+  return <Layout>My Account</Layout>;
 }
 
-export default MyAccount
+export default MyAccount;

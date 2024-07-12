@@ -11,10 +11,6 @@ function Home() {
       .then((data) => setItems(data));
   }, []);
 
-  useEffect(() => {
-    console.log(items);
-  }, [items]);
-
   return (
     <Layout>
       Home

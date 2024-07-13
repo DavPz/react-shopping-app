@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '../../Components/Layout';
 import Card from '../../Components/Card';
+import ProductDetail from '../../Components/ProductDetail';
 
 function Home() {
   const [items, setItems] = useState([]);
@@ -19,6 +20,7 @@ function Home() {
           <Card key={item.id} item={item} />
         ))}
       </div>
+      <ProductDetail />
     </Layout>
   );
 }
